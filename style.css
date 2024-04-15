@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about,#contact{
+    background-color: rgba(128, 128, 128, 0.212);
+}
+.header{
+    background:url(./Images/header_image.jpg) center center content-box;
+    height: 50vh;
+}
+.dim{
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.intro{
+    color: white;
+    background-color: rgba(0, 0, 54, 0.411);
+}
+.icons-container>img{
+    width: 50px;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.work{
+    position: relative;
+}
+.cover{
+    position: fixed;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.062);
+}
+@media(min-width:110px) and (max-width:1200px){
+    #proj3{
+        display: none;
+    }
+}
