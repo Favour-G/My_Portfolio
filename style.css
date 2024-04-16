@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 #about,#contact{
     background-color: rgba(128, 128, 128, 0.212);
 }
@@ -25,15 +28,7 @@
     margin-bottom: 2%;
 }
 .work{
-    position: relative;
-}
-.cover{
-    position: fixed;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.062);
+    background-color: rgba(128, 128, 128, 0.212);
 }
 @media(min-width:110px) and (max-width:1200px){
     #proj3{

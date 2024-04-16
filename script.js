@@ -1,4 +1,4 @@
-
+// Form Validation
 (() => {
     'use strict'
   
@@ -18,7 +18,7 @@
     })
   })()
 
-
+// Modal from form
 document.getElementById('submitBtn').addEventListener('click', function() {
     var form = document.getElementById('myForm');
     if (form.checkValidity() === false) {
@@ -38,3 +38,10 @@ document.getElementById('submitBtn').addEventListener('click', function() {
     $('#exampleModal').modal('hide');
   });
  
+  //Nav
+  $(document).ready(function() {
+    $('.navbar-nav .nav-link').on('click', function() {
+      // Collapse the navbar if it's expanded
+      $('.navbar-collapse').collapse('hide');
+    });
+  });
