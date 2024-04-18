@@ -35,3 +35,8 @@ body{
         display: none;
     }
 }
+@media(max-width:450px){
+    .work-img{
+        width: 95%;
+    }
+}
